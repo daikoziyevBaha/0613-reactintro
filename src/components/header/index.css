@@ -1,0 +1,46 @@
+
+header {
+    background-color: #363535;
+    padding: 0 1rem;
+}
+
+.container-header {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-search {
+    /* width: 30%; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+svg {
+    width: 96px;
+    height: 96px;
+}
+
+.search input {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 46px;
+    border: 0;
+    background-color: grey;
+}
+
+.date {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+@media screen and (max-width: 620px) {
+    .date {
+        display: none;
+    }
+}
